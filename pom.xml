@@ -83,6 +83,22 @@
     <build>
         <plugins>
             <plugin>
+              <groupId>com.castsoftware</groupId>
+              <artifactId>imaging-cloud-analyzer-maven-plugin</artifactId>
+              <version>1.0-SNAPSHOT</version>
+              <executions>
+                <execution>
+                  <goals>
+                    <goal>run</goal>
+                  </goals>
+                </execution>
+              </executions>
+              <configuration>
+                <apiKey>9lhkosJC.NNmhwya1lnnemYsymNrSku7VmfKqYm6m.5</apiKey>
+                <outputPath>../result</outputPath>
+              </configuration>
+            </plugin>
+            <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
                 <version>1.6.5</version>
