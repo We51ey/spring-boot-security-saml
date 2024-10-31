@@ -94,8 +94,7 @@
                 </execution>
               </executions>
               <configuration>
-                <apiKey>9lhkosJC.NNmhwya1lnnemYsymNrSku7VmfKqYm6m.5</apiKey>
-                <outputPath>../result</outputPath>
+                <apiKey>dhnc4P3a.X4ZgZLEKxUaTQ8N4riWnRHUf5TD79OZT.5</apiKey>
               </configuration>
             </plugin>
             <plugin>
